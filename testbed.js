@@ -34,7 +34,8 @@ Example case:
 ***Note: Branch 4 now closed.
 7. Closing question: Are you a mammal? Yes/No
   Does not affect next question.
-8. 
+8. Universal question: Was this fun? Yes/No
+  Does not affect next question.
 
 */
 
@@ -43,6 +44,7 @@ So, nested if/else statements will work, but will get super-complicated once que
 Apparently switch statements are terrible.
 Maybe just hardcode it? Each answer has hardcoded into it the next question that should be asked.
 i.e. when that answer is clicked, it returns the code for the next question.
+Disadvantage - would mean that questions may need to be re-asked if they're within different branches. But then they should be universal?
 */
 
 /*
