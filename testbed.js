@@ -51,12 +51,13 @@ function Question (qnText,ansNo,qnCode,isUni){
     this.isUni = isUni;
 }
 
+
 //Then we start creating questions, adding answers as we see fit.
 var taxUni1001 = new Question ("Do you care about tax deductibility?",3,1001,true);
 taxUni1001.ans1 = "Yes";
 taxUni1001.ans2 = "No";
 taxUni1001.ans3 = "Doesn't matter";
-taxUni1001.nextQn = "blueUni1002";
+
 
 //So now we should have a new object with a bunch of parameters.
 var testing = function() {
@@ -78,25 +79,25 @@ blueUni1002.ans2 = "No";
 
 
 var persBrnch1003 = new Question ("Are you a person?",2,1003,false);
-persBrnch1003.ans1 = "Yes";
-persBrnch1003.ans2 = "No";
+persBrnch1003.ans1 = "Yes"; //To genderBrnch1004
+persBrnch1003.ans2 = "No"; //To mammalBrnch1007
 
 
 var genderBrnch1004 = new Question ("What gender are you?",4,1004,false);
-genderBrnch1004.ans1 = "Male";
-genderBrnch1004.ans2 = "Female";
-genderBrnch1004.ans3 = "Other";
-genderBrnch1004.ans4 = "I don't want to tell you";
+genderBrnch1004.ans1 = "Male"; //To colourhBrnch1005
+genderBrnch1004.ans2 = "Female"; //To coloureBrnch1006
+genderBrnch1004.ans3 = "Other"; //To colourhBrnch1005
+genderBrnch1004.ans4 = "I don't want to tell you"; //funUni1008
 
 
-var colourhBrnch1005 = new Question ("What colour is your hair?",4,1005,false);
-colourhBrnch1005.ans1 = "Blue";
+var colourhBrnch1005 = new Question ("What colour is your hair?",4,1005,true);
+colourhBrnch1005.ans1 = "Blue"; 
 colourhBrnch1005.ans2 = "Brown";
 colourhBrnch1005.ans3 = "Black";
 colourhBrnch1005.ans4 = "Other";
 
 
-var coloureBrnch1006 = new Question ("What colour are your eyes?",5,1006,false);
+var coloureBrnch1006 = new Question ("What colour are your eyes?",5,1006,true);
 coloureBrnch1006.ans1 = "Blue";
 coloureBrnch1006.ans2 = "Brown";
 coloureBrnch1006.ans3 = "Yellow";
@@ -104,7 +105,7 @@ coloureBrnch1006.ans4 = "Green";
 coloureBrnch1006.ans5 = "Other";
 
 
-var mammalBrnch1007 = new Question ("Are you a mammal?",3,1007,false);
+var mammalBrnch1007 = new Question ("Are you a mammal?",3,1007,true);
 mammalBrnch1007.ans1 = "Yes";
 mammalBrnch1007.ans2 = "No";
 mammalBrnch1007.ans3 = "Doesn't matter";
@@ -117,36 +118,100 @@ funUni1008.ans2 = "No";
 //OK, let's create an array of possible questions - inelegant?
 var answers = ["ans1", "ans2", "ans3", "ans4", "ans5", "ans6", "ans7", "ans8", "ans9", "ans10", "ans11", "ans12"];
 
+//Now, to prevent referring to questions that don't exist yet, we need to put all the logic down here.
+
+taxUni1001.nextQn = blueUni1002;
+blueUni1002.nextQn = persBrnch1003;
+
+persBrnch1003.ans1Qn = genderBrnch1004;
+persBrnch1003.ans2Qn = mammalBrnch1007;
+
+genderBrnch1004.ans1Qn = colourhBrnch1005;
+genderBrnch1004.ans2Qn = coloureBrnch1006;
+genderBrnch1004.ans3Qn = colourhBrnch1005;
+genderBrnch1004.ans4Qn = funUni1008;
+
+colourhBrnch1005.nextQn = funUni1008;
+coloureBrnch1006.nextQn = funUni1008;
+mammalBrnch1007.nextQn = funUni1008;
+
+
+
+var lastQn = blueUni1002;
+var ansClicked;
+
+
 //We also need to create an object that contains all objects and their codes, then returns the right object when given the right code.
 
-var codeArrayMake = function() {
-  var codeArray = [];
-  for (i=0;i<8,i+=1) {
-    codeArray.push
-  }
-  
-}
-
-
-
-var codeBreaker = function(qnCodeGiven){
-  
-}
-
-
+//var arrayLength = codeArray.length;
+//for (var i = 0; i < arrayLength; i++) {
+//    console.log(codeArray[i]);
+//}
 
 //Now, how will we test this? Let's create a simple jQuery enquiry to add to buttons.
  $(document).ready(function(){
-   var displayQuestion = function(qnToDisplay) {
+   
+/*   var displayQuestion = function(qnToDisplay) {
+    lastQn = qnToDisplay;
 	$(".question").append(qnToDisplay.qnText);
     for(i=0;i<qnToDisplay.ansNo;i+=1) {
       var currentAns = answers[i];
       $(".answers").append("<button type='button' class = '" + currentAns + "' id='" + qnToDisplay.qnCode + "'>" + qnToDisplay[currentAns] + "</button>");
     }
   };
+  
+*/
+   
+    var displayQuestion = function(qnToDisplay) {
+    lastQn = qnToDisplay;
+	$('#wrapper').append('<div class="question2">' + qnToDisplay.qnText + '</div>');
+    for(i=0;i<qnToDisplay.ansNo;i+=1) {
+      var currentAns = answers[i];
+      $('#wrapper').append('<div class="answers2"><button type="button" class = "' + currentAns + '" id="' + qnToDisplay.qnCode + '">' + qnToDisplay[currentAns] + '</button></div>');
+    }
+  };   
+
+
+//Gets the class of the button clicked (e.g. 'ans1', ans2).
+
+
+   
+   var nextQuestion = function(ansClicked) {
+     var newQn;
+     if(lastQn.isUni) {
+       newQn = lastQn.nextQn;
+     } else {
+       var nextQnCode = ansClicked + "Qn";
+       newQn = lastQn[nextQnCode];
+     }
+
+//put in error handling here
+     
+     displayQuestion(newQn); 
+
+   };
+
+
+var clearQuestion = function() {
+  $('#wrapper').empty();
+  console.log("ClearRun");
+};
+
    
 displayQuestion(taxUni1001);
+
+$('body').on('click', 'button', function(){   
+       ansClicked = this.className;
+       console.log(ansClicked);
+       clearQuestion();
+       nextQuestion(ansClicked);
+     });
    
+
+}); 
+  
+//This is the end of the document ready, don't touch.
+
 //OK, testing function is up and running. Let's do some logic! So, how do we tell it, once it gets a particular answer, that it should go to a particular question? 
 
    /*
@@ -164,22 +229,7 @@ displayQuestion(taxUni1001);
    
 */
 
-//Gets the class of the button clicked (e.g. 'ans1', ans2).
-   
-   $("button").click(function() {
-       var ansClicked = this.className;
-       var qnClicked = this.id;
-       nextQuestion(qnClicked,ansClicked);
-     });
-   
-   var nextQuestion = function(qnClicked,ansClicked) {
-      
-       
-   };
-   
-   
-   
-}); //This is the end of the document ready, don't touch.
+
 
 /*
 So, nested if/else statements will work, but will get super-complicated once questions have three terms and multiple branches.
