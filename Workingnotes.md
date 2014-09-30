@@ -1,8 +1,8 @@
 #To do list
 
 ##Data creation and cleaning
-[] Compile together all the datasets
-[] Test if scraping google for the annual/financial reports is likely to give useful results
+- [] Compile together all the datasets
+- [] Test if scraping google for the annual/financial reports is likely to give useful results
 
 ##Design
 [] Decide on colour scheme
