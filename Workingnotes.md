@@ -2,7 +2,7 @@
 
 ##Data creation and cleaning
 - [ ] Compile together all the datasets
-- [ ] Test if scraping google for the annual/financial reports is likely to give useful results
+- [x] Test if scraping google for the annual/financial reports is likely to give useful results (answer: no, at least not at 100 results a day).
 
 ##Design
 - [ ] Decide on colour scheme
