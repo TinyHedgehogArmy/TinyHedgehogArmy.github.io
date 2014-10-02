@@ -71,6 +71,25 @@ aside p {
 	transform: translateY(-50%);
 }
 	
-	
+.firstbox {
+	width:33%;
+	height: 30vh;
+	float:left;
+	background-color: #d5f2f7;
+}
+
+.secondbox {
+	width:33%;
+	float:left;
+	height: 30vh;
+	background-color: #f7f3e7;
+}
+
+.thirdbox {
+	width:33%;
+	float:left;
+	height: 30vh;
+	background-color: #d5f2f7;
+}
 	
 	
