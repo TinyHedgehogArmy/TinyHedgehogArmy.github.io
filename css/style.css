@@ -50,7 +50,8 @@
     display: inline-block;
     max-height: 70%;  /* <-- Set maximum height to 100% of its parent */
     max-width: 70%;   /* <-- Set maximum width to 100% of its parent */
-	
+}
+
 aside {
 	height:20vh;
 	background-color: #e18728;
