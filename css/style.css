@@ -3,6 +3,10 @@
 	padding:0;
 }
 
+p {
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
 .header {
 	height:50vh;
 	background-color:#f7f3e7;
@@ -55,5 +59,18 @@
 aside {
 	height:20vh;
 	background-color: #e18728;
-	text-align: center;
 }
+
+aside p {
+	text-align: center;
+	color: white;
+	position: relative;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY:(-50%);
+	transform: translateY(-50%);
+}
+	
+	
+	
+	
