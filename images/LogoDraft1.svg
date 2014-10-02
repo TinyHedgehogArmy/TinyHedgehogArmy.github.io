@@ -10,8 +10,8 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
-   width="744.09448"
-   height="1052.3622"
+   width="290"
+   height="290"
    id="svg4222"
    inkscape:version="0.48.4 r9939"
    sodipodi:docname="LogoDraft1.svg">
@@ -24,16 +24,16 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="640"
-     inkscape:window-height="480"
+     inkscape:window-width="800"
+     inkscape:window-height="1217"
      id="namedview14"
      showgrid="false"
      inkscape:zoom="0.44851479"
      inkscape:cx="409.98156"
      inkscape:cy="784.95113"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="0"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
      inkscape:current-layer="svg4222" />
   <defs
      id="defs4224" />
@@ -51,7 +51,7 @@
   </metadata>
   <g
      id="layer1"
-     transform="translate(-329.97797,-151.6115)">
+     transform="translate(-334.39441,-149.42876)">
     <path
        d="m 364.58501,213.90618 -2.46018,7.80851 c 0,0 105.86208,9.80896 114.84705,23.41939 2.86729,-9.74952 99.67974,-24.30763 115.44273,-22.95188 -1.97491,-3.9173 -4.87422,-7.73871 -4.87422,-7.73871 -48.25207,-9.48719 -70.8156,-10.88398 -106.68221,-12.23244 -50.34928,-0.069 -82.519,6.08496 -116.27317,11.69513 z"
        id="path3945-7-2-1-7-4"
