@@ -4,6 +4,7 @@
 - [ ] Compile together all the datasets
 - [x] Test if scraping google for the annual/financial reports is likely to give useful results (well, they're restricting to 100 per day, but that's OK.
 - [ ] http://stackoverflow.com/questions/4490983/google-search-with-python/4491058#4491058 (tomorrow :P)
+- [ ] Compile list from GiveNow.com.au as well.
 - [ ] Start compiling revenue numbers.
 
 ##Design
@@ -31,6 +32,7 @@
 - [ ] Decide on what this will look like (both after the decision page and straight)
 - [ ] Investigate firebase as an option
 - [ ] Actually code all this - depends on whether I use PHP/mySQL or the Firebase option  
+- [ ] Make sure that people can come back to their answers! Either by creating an account (hard) or giving each results page a unique URL (slightly less hard?)
 
 #Design stuff
 
