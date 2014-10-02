@@ -70,19 +70,21 @@ aside p {
 	-webkit-transform: translateY:(-50%);
 	transform: translateY(-50%);
 }
-	
+
 .firstbox {
 	width:33%;
 	height: 30vh;
 	float:left;
 	background-color: #d5f2f7;
+	text-align: center;
 }
 
 .secondbox {
-	width:33%;
+	width:34%;
 	float:left;
 	height: 30vh;
 	background-color: #f7f3e7;
+	text-align: center;
 }
 
 .thirdbox {
@@ -90,6 +92,7 @@ aside p {
 	float:left;
 	height: 30vh;
 	background-color: #d5f2f7;
+	text-align: center;
 }
 	
 	
