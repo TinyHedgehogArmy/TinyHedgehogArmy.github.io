@@ -28,11 +28,12 @@
 - [ ] Add in tracking of where we've been
 - [x] Tooltips/mouseover information
 - [x] Click on breadcrumb to go back to that question (prompt for non-universal questions)
+- [ ] Set up cookie so they don't lose progress
 
 ##Results page
 - [ ] Decide on what this will look like (both after the decision page and straight)
-- [ ] Investigate firebase as an option
-- [ ] Actually code all this - depends on whether I use PHP/mySQL or the Firebase option  
+- [x] Investigate firebase as an option (weak queries, which is the only reason I need a database in the first place)
+- [ ] Actually code in PHP/mySQL  
 - [ ] Make sure that people can come back to their answers! Either by creating an account (hard) or giving each results page a unique URL (slightly less hard?)
 
 #Design stuff
