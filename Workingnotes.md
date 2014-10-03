@@ -21,12 +21,13 @@
 - [ ] Implement mouseover and other similar behaviour
 
 ##Decision page
+- http://jsbin.com/carihurugute
 - [ ] Put in actual questions!
 - [ ] Refine design
-- [ ] Add in visual representation of the breadcrumb
+- [x] Add in visual representation of the breadcrumb
 - [ ] Add in tracking of where we've been
-- [ ] Tooltips/mouseover information
-- [ ] Click on breadcrumb to go back to that question (prompt for non-universal questions)
+- [x] Tooltips/mouseover information
+- [x] Click on breadcrumb to go back to that question (prompt for non-universal questions)
 
 ##Results page
 - [ ] Decide on what this will look like (both after the decision page and straight)
