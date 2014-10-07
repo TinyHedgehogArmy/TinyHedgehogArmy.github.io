@@ -57,7 +57,7 @@ p {
 
 aside {
 	height:20vh;
-	background-color: #e18728;
+	background-color: #E1AD69;
 }
 
 aside p {
@@ -70,12 +70,15 @@ aside p {
 	transform: translateY(-50%);
 }
 
-.firstbox {
-	width:30%;
+.firstbox, .secondbox, .thirdbox {
 	height: 30vh;
 	float:left;
-	background-color: #d5f2f7;
 	text-align: center;
+}
+
+.firstbox {
+	width:30%;
+	background-color: #d5f2f7;
 }
 
 .firstbox img, .secondbox img, .thirdbox img {
@@ -83,23 +86,18 @@ aside p {
 	max-height: 50%;
 	margin: 0 auto;
 	display: block;
-	padding: 10%;
 }
 
 .secondbox {
 	width:40%;
-	float:left;
-	height: 30vh;
 	background-color: #f7f3e7;
-	text-align: center;
 }
 
 .thirdbox {
 	width:30%;
-	float:left;
-	height: 30vh;
 	background-color: #d5f2f7;
-	text-align: center;
 }
 	
-	
+.boxspacer {
+	height:10%;
+}
