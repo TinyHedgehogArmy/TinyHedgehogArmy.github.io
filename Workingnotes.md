@@ -8,14 +8,14 @@
 - [ ] Start compiling revenue numbers.
 
 ##Design
-- [ ] Decide on colour scheme
+- [x] Decide on colour scheme
 - [x] Start coding the main website page
 - [x] Refine logo (either create more block colour, or make all lines same width)
 - [ ] Create icons for the three options - list, curated, faq
 
 ##Main page
 - [ ] Write text
-- [ ] Fix logo (add writing to SVG?)
+- [x] Fix logo (add writing to SVG?)
 - [ ] Do SEO kind of stuff
 - [ ] Create menu bar at top
 - [ ] Implement mouseover and other similar behaviour
@@ -38,6 +38,13 @@
 - [ ] Make sure that people can come back to their answers! Either by creating an account (hard) or giving each results page a unique URL (slightly less hard?)
 
 #Design stuff
+
+##Colour scheme
+Main dark blue: 286E94
+Highlights blue: 52AEE1
+Highlights orange: C74F21
+
+See https://color.adobe.com/
 
 ##Diagonal lines
 http://www.amaslo.com/2012/06/drawing-diagonal-line-in-htmlcssjs-with.html
