@@ -29,6 +29,8 @@ p {
 
 .dummy {
     padding-top: 100vh; /* forces 1:1 aspect ratio */
+	position: absolute;
+	z-index: -1;
 }
 
 .img-container {
