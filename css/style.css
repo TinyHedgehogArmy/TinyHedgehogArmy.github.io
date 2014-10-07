@@ -78,7 +78,7 @@ aside p {
 	text-align: center;
 }
 
-.firstbox img {
+.firstbox img, .secondbox img, .thirdbox img {
 	width:50%;
 	margin: 0 auto;
 	display: block;
