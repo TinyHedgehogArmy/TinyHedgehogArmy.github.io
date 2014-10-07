@@ -71,7 +71,7 @@ aside p {
 }
 
 .firstbox {
-	width:25%;
+	width:30%;
 	height: 30vh;
 	float:left;
 	background-color: #d5f2f7;
@@ -80,12 +80,14 @@ aside p {
 
 .firstbox img, .secondbox img, .thirdbox img {
 	width:50%;
+	max-height: 50%;
 	margin: 0 auto;
 	display: block;
+	padding: 10%;
 }
 
 .secondbox {
-	width:50%;
+	width:40%;
 	float:left;
 	height: 30vh;
 	background-color: #f7f3e7;
@@ -93,7 +95,7 @@ aside p {
 }
 
 .thirdbox {
-	width:25%;
+	width:30%;
 	float:left;
 	height: 30vh;
 	background-color: #d5f2f7;
