@@ -26,7 +26,7 @@
 - [ ] Put in actual questions!
 - [ ] Refine design
 - [x] Add in visual representation of the breadcrumb
-- [ ] Add in tracking of where we've been
+- [x] Add in tracking of how far through they are
 - [x] Tooltips/mouseover information
 - [x] Click on breadcrumb to go back to that question (prompt for non-universal questions)
 - [ ] Set up cookie so they don't lose progress
