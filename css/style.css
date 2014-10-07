@@ -77,12 +77,17 @@ aside p {
 
 .firstbox p, .secondbox p, .thirdbox  p{
 	top: 5%;
+	position: relative;
 }
 
 
 .firstbox {
 	width:30%;
 	background-color: #D1E8F6;
+}
+
+.firstbox:hover, .secondbox:hover, .thirdbox:hover  {
+	background-color: 52AEE1;
 }
 
 .firstbox img, .secondbox img, .thirdbox img {
