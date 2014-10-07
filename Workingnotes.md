@@ -11,14 +11,14 @@
 - [x] Decide on colour scheme
 - [x] Start coding the main website page
 - [x] Refine logo (either create more block colour, or make all lines same width)
-- [ ] Create icons for the three options - list, curated, faq
+- [x] Create icons for the three options - list, curated, faq
 
 ##Main page
 - [ ] Write text
 - [x] Fix logo (add writing to SVG?)
 - [ ] Do SEO kind of stuff
 - [ ] Create menu bar at top
-- [ ] Implement mouseover and other similar behaviour
+- [x] Implement mouseover and other similar behaviour
 
 ##Decision page
 - http://jsbin.com/carihurugute
