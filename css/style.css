@@ -9,7 +9,7 @@ p {
 
 .header {
 	height:50vh;
-	background-color:#f7f3e7;
+	background-color:#FFE7C8;
 }
 
 .logo {
@@ -57,7 +57,7 @@ p {
 
 aside {
 	height:20vh;
-	background-color: #E1AD69;
+	background-color: #946C36;
 }
 
 aside p {
@@ -76,9 +76,14 @@ aside p {
 	text-align: center;
 }
 
+.firstbox p, .secondbox p, .thirdbox  p{
+	padding: 10%;
+}
+
+
 .firstbox {
 	width:30%;
-	background-color: #d5f2f7;
+	background-color: #D1E8F6;
 }
 
 .firstbox img, .secondbox img, .thirdbox img {
@@ -90,14 +95,14 @@ aside p {
 
 .secondbox {
 	width:40%;
-	background-color: #f7f3e7;
+	background-color: #D1E8F6;
 }
 
 .thirdbox {
 	width:30%;
-	background-color: #d5f2f7;
+	background-color: #D1E8F6;
 }
 	
 .boxspacer {
-	height:10%;
+	height:15%;
 }
