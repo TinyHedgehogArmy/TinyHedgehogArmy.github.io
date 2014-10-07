@@ -90,6 +90,7 @@ aside p {
 
 .firstbox:hover, .secondbox:hover, .thirdbox:hover  {
 	background-color: #52AEE1;
+	cursor: pointer; 
 }
 
 .firstbox img, .secondbox img, .thirdbox img {
