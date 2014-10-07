@@ -19,12 +19,15 @@
 - [ ] Do SEO kind of stuff
 - [ ] Create menu bar at top
 - [x] Implement mouseover and other similar behaviour
+- [ ] Replace SVGs so they degrade gracefully in ie.
+- [ ] Fix rendering using in-browser fonts of main SVG
 
 ##Decision page
 - http://jsbin.com/carihurugute
 - http://jsbin.com/yuzako
 - [ ] Put in actual questions!
 - [ ] Refine design
+- [ ] Decide on how it will fit within the larger website structure
 - [x] Add in visual representation of the breadcrumb
 - [x] Add in tracking of how far through they are
 - [x] Tooltips/mouseover information
@@ -33,6 +36,7 @@
 
 ##Results page
 - [ ] Decide on what this will look like (both after the decision page and straight)
+- [ ] Investigate how to pass from javascript to php
 - [x] Investigate firebase as an option (weak queries, which is the only reason I need a database in the first place)
 - [ ] Actually code in PHP/mySQL  
 - [ ] Make sure that people can come back to their answers! Either by creating an account (hard) or giving each results page a unique URL (slightly less hard?)
