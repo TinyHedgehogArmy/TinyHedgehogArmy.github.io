@@ -25,6 +25,7 @@
 ##Decision page
 - http://jsbin.com/carihurugute
 - http://jsbin.com/yuzako
+- http://jsbin.com/regefezololi
 - [ ] Put in actual questions!
 - [ ] Refine design
 - [ ] Decide on how it will fit within the larger website structure
