@@ -1,11 +1,12 @@
 #To do list
 
 ##Data creation and cleaning
-- [ ] Compile together all the datasets
+- [x] Compile together all the datasets
 - [x] Test if scraping google for the annual/financial reports is likely to give useful results (well, they're restricting to 100 per day, but that's OK.
-- [ ] http://stackoverflow.com/questions/4490983/google-search-with-python/4491058#4491058 (tomorrow :P)
+- [x] http://stackoverflow.com/questions/4490983/google-search-with-python/4491058#4491058 (Nah, not worth effort - manual)
 - [ ] Compile list from GiveNow.com.au as well.
 - [ ] Start compiling revenue numbers.
+- [ ] Manually code the holdouts (bah)
 
 ##Design
 - [x] Decide on colour scheme
@@ -42,6 +43,13 @@
 - [x] Investigate firebase as an option (weak queries, which is the only reason I need a database in the first place)
 - [ ] Actually code in PHP/mySQL  
 - [ ] Make sure that people can come back to their answers! Either by creating an account (hard) or giving each results page a unique URL (slightly less hard?)
+
+##MySQL database
+- Use a temp table for the different sorts instead of querying the database multiple times
+- Use BIT type for the 1,0 columns
+- Index all the fields to be searched
+- Use 'Enum' for the size field
+
 
 #Design stuff
 
