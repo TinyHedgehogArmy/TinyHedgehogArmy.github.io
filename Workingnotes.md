@@ -7,6 +7,7 @@
 - [ ] Compile list from GiveNow.com.au as well.
 - [ ] Start compiling revenue numbers.
 - [ ] Manually code the holdouts (bah)
+- [ ] Scrape sites, get additional coding information
 
 ##Design
 - [x] Decide on colour scheme
