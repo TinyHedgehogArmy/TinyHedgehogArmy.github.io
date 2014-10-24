@@ -83,6 +83,7 @@ aside h2 {
 	height: 30vh;
 	float:left;
 	text-align: center;
+	color: #286E94;
 }
 
 .firstbox p, .secondbox p, .thirdbox  p{
@@ -99,7 +100,6 @@ aside h2 {
 .firstbox:hover, .secondbox:hover, .thirdbox:hover  {
 	background-color: white;
 	color: #286E94;
-	font-weight: bold;
 	cursor: pointer; 
 }
 
