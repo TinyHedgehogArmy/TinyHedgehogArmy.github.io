@@ -97,8 +97,7 @@ aside h2 {
 }
 
 .firstbox:hover, .secondbox:hover, .thirdbox:hover  {
-	background-color: #52AEE1;
-	color: white;
+	background-color: white;
 	cursor: pointer; 
 }
 
