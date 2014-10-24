@@ -98,6 +98,8 @@ aside h2 {
 
 .firstbox:hover, .secondbox:hover, .thirdbox:hover  {
 	background-color: white;
+	color: #286E94;
+	font-weight: bold;
 	cursor: pointer; 
 }
 
