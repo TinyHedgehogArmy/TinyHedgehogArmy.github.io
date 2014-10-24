@@ -5,7 +5,7 @@
 }
 
 p {
-
+	font-size:1.2em;
 }
 
 .header {
@@ -71,6 +71,7 @@ aside div {
 	-webkit-transform: translateY:(-50%);
 	transform: translateY(-50%);
 	padding: 5%;
+	font-size:1.2em;
 }
 
 aside h2 {
