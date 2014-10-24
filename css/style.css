@@ -75,7 +75,8 @@ aside div {
 }
 
 aside h2 {
-	font-size: 1.5em;
+	font-size: 2em;
+	padding-bottom: 5%;
 }
 
 .firstbox, .secondbox, .thirdbox {
@@ -103,7 +104,6 @@ aside h2 {
 
 .firstbox img, .secondbox img, .thirdbox img {
 	width:50%;
-	max-height: 50%;
 	margin: 0 auto;
 	display: block;
 }
