@@ -73,6 +73,10 @@ aside p {
 	padding: 5%;
 }
 
+aside .largetext {
+	font-size: 1.7em;
+}
+
 .firstbox, .secondbox, .thirdbox {
 	height: 30vh;
 	float:left;
