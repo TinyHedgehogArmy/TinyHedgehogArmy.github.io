@@ -29,8 +29,9 @@
 - http://jsbin.com/yuzako
 - http://jsbin.com/regefezololi
 - http://jsbin.com/xujut
+- http://jsbin.com/lilobekobo
 - [ ] Put in actual questions!
-- [ ] Refine design
+- [x] Refine design
 - [ ] Decide on how it will fit within the larger website structure
 - [x] Add in visual representation of the breadcrumb
 - [x] Add in tracking of how far through they are
