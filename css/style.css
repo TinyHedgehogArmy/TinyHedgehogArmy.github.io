@@ -104,11 +104,12 @@ aside h2 {
 }
 
 .firstbox img, .secondbox img, .thirdbox img {
-	width:50%;
 	max-height: 50%;
 	max-width: 50%;
 	margin: 0 auto;
 	display: block;
+	width: auto;
+    height: auto;
 }
 
 .secondbox {
