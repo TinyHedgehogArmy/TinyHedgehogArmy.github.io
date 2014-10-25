@@ -21,8 +21,8 @@
 - [ ] Do SEO kind of stuff
 - [ ] Create menu bar at top
 - [x] Implement mouseover and other similar behaviour
-- [ ] Replace SVGs so they degrade gracefully in ie.
-- [ ] Fix rendering using in-browser fonts of main SVG
+- [x] Replace SVGs so they degrade gracefully in ie.
+- [x] Fix rendering using in-browser fonts of main SVG
 
 ##Decision page
 - http://jsbin.com/carihurugute
