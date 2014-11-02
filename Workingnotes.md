@@ -42,6 +42,7 @@
 - [x] Click on breadcrumb to go back to that question (prompt for non-universal questions)
 - [ ] Set up cookie so they don't lose progress
 - [ ] Code help popups (https://github.com/heelhook/chardin.js could be the answer?)
+- [ ] Make more mobile-friendly (reduce padding, increase text size on small screens)
 
 ##Results page
 - [ ] Decide on what this will look like (both after the decision page and straight)
