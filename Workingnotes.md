@@ -46,8 +46,8 @@
 - [ ] Investigate how to pass from javascript to php
 - [x] Investigate firebase as an option (weak queries, which is the only reason I need a database in the first place)
 - [ ] Actually code in PHP/mySQL  
-- [ ] Make sure that people can come back to their answers! Either by creating an account (hard) or giving each results page a unique URL (slightly less hard?)
-- [ ] Program fallback in case their selection doesn't have any results
+- [ ] Make sure that people can come back to their answers! Each results page will have (by default) a unique URL, so we can just digest that and give it to them.
+- [ ] Program a fallback in case their selection doesn't have any results (ideally, with a notification sent to me)
 - [ ] Code popup box with all the details of a particular result
 - [ ] Code help popups (https://github.com/heelhook/chardin.js could be the answer?)
 
@@ -73,5 +73,17 @@ http://www.amaslo.com/2012/06/drawing-diagonal-line-in-htmlcssjs-with.html
 ##Circles
 http://jsfiddle.net/rkEMR/
 
-I should really sketch out what I actually want it to look like...
 
+#Phase II
+
+##New functionality
+- In-built donation function
+- Ability to donate to multiple charities at once.
+- Ability to donate without being pestered.
+- 'Star' charities or otherwise list as favourites - have a 'basket' of favourite charities
+- Get the ability to track what various people have selected (effectively, just an activity log - all you need is .
+- Mailing list to remind people at tax time about their charity.
+
+##New data
+- Three years of annual reports = 'fastest growing' metric available.
+- 
