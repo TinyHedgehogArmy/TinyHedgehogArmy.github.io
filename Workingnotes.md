@@ -44,6 +44,7 @@
 - [ ] Code help popups (https://github.com/heelhook/chardin.js could be the answer?)
 - [ ] Make more mobile-friendly (reduce padding, increase text size on small screens)
 - [ ] (low priority) Fix the animation so they fade rather than vanish entirely.
+- [ ] Fix progress bar location and give heading.
 
 ##Results page
 - [ ] Decide on what this will look like (both after the decision page and straight)
