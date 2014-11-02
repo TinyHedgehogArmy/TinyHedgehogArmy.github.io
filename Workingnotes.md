@@ -23,6 +23,8 @@
 - [x] Implement mouseover and other similar behaviour
 - [x] Replace SVGs so they degrade gracefully in ie.
 - [x] Fix rendering using in-browser fonts of main SVG
+- [ ] Make it so that the top two boxes are in a wrapper of 70% vh, but can change height within that
+- [ ] Fix images so that they're all the same height
 
 ##Decision page
 - http://jsbin.com/carihurugute
