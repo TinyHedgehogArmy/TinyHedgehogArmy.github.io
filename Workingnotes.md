@@ -86,4 +86,4 @@ http://jsfiddle.net/rkEMR/
 
 ##New data
 - Three years of annual reports = 'fastest growing' metric available.
-- 
+- Start collecting profit/loss data?
