@@ -39,6 +39,7 @@
 - [x] Tooltips/mouseover information
 - [x] Click on breadcrumb to go back to that question (prompt for non-universal questions)
 - [ ] Set up cookie so they don't lose progress
+- [ ] Code help popups
 
 ##Results page
 - [ ] Decide on what this will look like (both after the decision page and straight)
@@ -46,6 +47,9 @@
 - [x] Investigate firebase as an option (weak queries, which is the only reason I need a database in the first place)
 - [ ] Actually code in PHP/mySQL  
 - [ ] Make sure that people can come back to their answers! Either by creating an account (hard) or giving each results page a unique URL (slightly less hard?)
+- [ ] Program fallback in case their selection doesn't have any results
+- [ ] Code popup box with all the details of a particular result
+- [ ] Code help popups.
 
 ##MySQL database
 - Use a temp table for the different sorts instead of querying the database multiple times
