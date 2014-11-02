@@ -6,8 +6,8 @@
 - [x] http://stackoverflow.com/questions/4490983/google-search-with-python/4491058#4491058 (Nah, not worth effort - manual)
 - [ ] Compile list from GiveNow.com.au as well.
 - [ ] Start compiling revenue numbers.
-- [ ] Manually code the holdouts (bah)
-- [ ] Scrape sites, get additional coding information
+- [ ] Manually code the holdouts
+- [ ] Scrape sites, get additional coding information (how to implement this?)
 
 ##Design
 - [x] Decide on colour scheme
@@ -43,6 +43,7 @@
 - [ ] Set up cookie so they don't lose progress
 - [ ] Code help popups (https://github.com/heelhook/chardin.js could be the answer?)
 - [ ] Make more mobile-friendly (reduce padding, increase text size on small screens)
+- [ ] (low priority) Fix the animation so they fade rather than vanish entirely.
 
 ##Results page
 - [ ] Decide on what this will look like (both after the decision page and straight)
@@ -86,6 +87,7 @@ http://jsfiddle.net/rkEMR/
 - 'Star' charities or otherwise list as favourites - have a 'basket' of favourite charities
 - Get the ability to track what various people have selected (effectively, just an activity log - all you need is .
 - Mailing list to remind people at tax time about their charity.
+- Search function - search the short descriptions of their work.
 
 ##New data
 - Three years of annual reports = 'fastest growing' metric available.
