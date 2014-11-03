@@ -5,15 +5,12 @@
 }
 
 p {
-	font-size:1.2em;
+	font-size:1em;
 }
 
-.topwrapper {
-	height: 70vh;
-}
 
 .header {
-	min-height: 30%;
+	height: 40vh;
 }
 
 .logo {
@@ -29,6 +26,7 @@ p {
 .responsive-container {
     position: relative;
     width: 100%;
+	height: 40vh;
 }
 
 .dummy {
@@ -61,7 +59,7 @@ p {
 }
 
 aside {
-	min-height: 40%;
+	height: 30vh;
 	background-color: #C74F21;
 }
 
@@ -92,6 +90,7 @@ aside h2 {
 .firstbox p, .secondbox p, .thirdbox  p{
 	top: 5%;
 	position: relative;
+	padding: 5%;
 }
 
 
