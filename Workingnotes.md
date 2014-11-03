@@ -16,14 +16,14 @@
 - [x] Create icons for the three options - list, curated, faq
 
 ##Main page
-- [ ] Write text
+- [x] Write text
 - [x] Fix logo (add writing to SVG?)
 - [ ] Do SEO kind of stuff
 - [ ] Create menu bar at top
 - [x] Implement mouseover and other similar behaviour
 - [x] Replace SVGs so they degrade gracefully in ie.
 - [x] Fix rendering using in-browser fonts of main SVG
-- [ ] Make it so that the top two boxes are in a wrapper of 70% vh, but can change height within that
+- [x] Make it so that the top two boxes are in a wrapper of 70% vh, but can change height within that
 - [ ] Fix images so that they're all the same height
 
 ##Decision page
@@ -38,16 +38,16 @@
 - http://jsbin.com/xosuhu
 - [ ] Put in actual questions!
 - [x] Refine design
-- [ ] Decide on how it will fit within the larger website structure
+- [x] Decide on how it will fit within the larger website structure
 - [x] Add in visual representation of the breadcrumb
 - [x] Add in tracking of how far through they are
 - [x] Tooltips/mouseover information
 - [x] Click on breadcrumb to go back to that question (prompt for non-universal questions)
-- [ ] Set up cookie so they don't lose progress
 - [ ] Code help popups (https://github.com/heelhook/chardin.js could be the answer?)
 - [ ] Make more mobile-friendly (reduce padding, increase text size on small screens)
 - [ ] Fix the animation so they fade rather than vanish entirely (low priority).
-- [ ] Fix progress bar location and give heading.
+- [x] Fix progress bar location and give heading.
+- [ ] Set up cookie so they don't lose progress (low priority)
 
 ##Results page
 - [ ] Decide on what this will look like (both after the decision page and straight)
