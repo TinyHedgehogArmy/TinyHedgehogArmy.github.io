@@ -90,7 +90,7 @@ aside h2 {
 .firstbox p, .secondbox p, .thirdbox  p{
 	top: 5%;
 	position: relative;
-	padding: 0% 2% 0% 2%;
+	padding: 1% 5% 0% 5%;
 }
 
 
@@ -106,8 +106,8 @@ aside h2 {
 }
 
 .firstbox img, .secondbox img, .thirdbox img {
-	max-height: 30%;
-	max-width: 30%;
+	max-height: 40%;
+	max-width: 40%;
 	margin: 0 auto;
 	display: block;
 	width: auto;
