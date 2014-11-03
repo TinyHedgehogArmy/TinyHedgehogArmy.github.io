@@ -20,7 +20,7 @@ p {
 }
 
 .logo img {
-	height:80%;
+	height:65%;
 }
 
 .responsive-container {
@@ -72,7 +72,7 @@ aside div {
 	-webkit-transform: translateY:(-50%);
 	transform: translateY(-50%);
 	padding: 5%;
-	font-size:1em;
+	font-size:1.2em;
 }
 
 aside h2 {
@@ -81,7 +81,7 @@ aside h2 {
 }
 
 .firstbox, .secondbox, .thirdbox {
-	height: 40vh;
+	height: 35vh;
 	float:left;
 	text-align: center;
 	color: #286E94;
