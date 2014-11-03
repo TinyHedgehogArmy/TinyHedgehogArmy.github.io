@@ -8,8 +8,12 @@ p {
 	font-size:1.2em;
 }
 
+.topwrapper {
+	height: 70vh;
+}
+
 .header {
-	height:50vh;
+	min-height: 30%;
 }
 
 .logo {
@@ -58,7 +62,7 @@ p {
 }
 
 aside {
-	height:20vh;
+	min-height: 40%;
 	background-color: #C74F21;
 }
 
