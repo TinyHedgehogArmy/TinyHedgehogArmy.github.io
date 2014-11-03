@@ -54,12 +54,12 @@ p {
 .img-container img {
     vertical-align: middle;
     display: inline-block;
-    max-height: 60%;  /* <-- Set maximum height to 100% of its parent */
-    max-width: 60%;   /* <-- Set maximum width to 100% of its parent */
+    max-height: 55%;  /* <-- Set maximum height to 100% of its parent */
+    max-width: 55%;   /* <-- Set maximum width to 100% of its parent */
 }
 
 aside {
-	height: 25vh;
+	height: 30vh;
 	background-color: #C74F21;
 }
 
@@ -90,7 +90,7 @@ aside h2 {
 .firstbox p, .secondbox p, .thirdbox  p{
 	top: 5%;
 	position: relative;
-	padding: 2%;
+	padding: 0% 2% 0% 2%;
 }
 
 
