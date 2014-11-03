@@ -10,7 +10,7 @@ p {
 
 
 .header {
-	height: 40vh;
+	height: 35vh;
 }
 
 .logo {
@@ -59,7 +59,7 @@ p {
 }
 
 aside {
-	height: 30vh;
+	height: 25vh;
 	background-color: #C74F21;
 }
 
@@ -72,7 +72,7 @@ aside div {
 	-webkit-transform: translateY:(-50%);
 	transform: translateY(-50%);
 	padding: 5%;
-	font-size:1.2em;
+	font-size:1em;
 }
 
 aside h2 {
@@ -81,7 +81,7 @@ aside h2 {
 }
 
 .firstbox, .secondbox, .thirdbox {
-	height: 30vh;
+	height: 40vh;
 	float:left;
 	text-align: center;
 	color: #286E94;
