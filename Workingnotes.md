@@ -36,14 +36,14 @@
 - http://jsbin.com/qolotazabi
 - http://jsbin.com/tupumevoqe
 - http://jsbin.com/xosuhu
-- [ ] Put in actual questions!
+- [x] Put in actual questions!
 - [x] Refine design
 - [x] Decide on how it will fit within the larger website structure
 - [x] Add in visual representation of the breadcrumb
 - [x] Add in tracking of how far through they are
 - [x] Tooltips/mouseover information
 - [x] Click on breadcrumb to go back to that question (prompt for non-universal questions)
-- [ ] Code help popups (https://github.com/heelhook/chardin.js could be the answer?)
+- [x] Code help popups (https://github.com/heelhook/chardin.js could be the answer?)
 - [ ] Make more mobile-friendly (reduce padding, increase text size on small screens)
 - [ ] Fix the animation so they fade rather than vanish entirely (low priority).
 - [x] Fix progress bar location and give heading.
