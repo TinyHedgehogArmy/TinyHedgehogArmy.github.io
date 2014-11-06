@@ -19,7 +19,7 @@
 - [x] Write text
 - [x] Fix logo (add writing to SVG?)
 - [ ] Do SEO kind of stuff
-- [ ] Create menu bar at top
+- [ ] Create menu bar at top - add 'Contact'
 - [x] Implement mouseover and other similar behaviour
 - [x] Replace SVGs so they degrade gracefully in ie.
 - [x] Fix rendering using in-browser fonts of main SVG
