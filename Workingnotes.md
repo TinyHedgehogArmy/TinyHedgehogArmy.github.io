@@ -19,7 +19,7 @@
 - [x] Write text
 - [x] Fix logo (add writing to SVG?)
 - [ ] Do SEO kind of stuff
-- [ ] Create menu bar at top - add 'Contact'
+- [ ] Create menu bar at top - add 'Contact' and 'About'
 - [x] Implement mouseover and other similar behaviour
 - [x] Replace SVGs so they degrade gracefully in ie.
 - [x] Fix rendering using in-browser fonts of main SVG
@@ -57,7 +57,8 @@
 - [ ] Make sure that people can come back to their answers! Each results page will have (by default) a unique URL, so we can just digest that and give it to them.
 - [ ] Program a fallback in case their selection doesn't have any results (ideally, with a notification sent to me)
 - [ ] Code popup box with all the details of a particular result
-- [ ] Code help popups (https://github.com/heelhook/chardin.js could be the answer?)
+- [ ] Code help popups
+- [ ] Code ability to switch views as well as change filter (top 5 etc).
 
 ##MySQL database
 - Use a temp table for the different sorts instead of querying the database multiple times
@@ -85,11 +86,12 @@ http://jsfiddle.net/rkEMR/
 #Phase II
 
 ##New functionality
+- Add short descriptions and logos for each charity
 - In-built donation function
 - Ability to donate to multiple charities at once.
 - Ability to donate without being pestered.
 - 'Star' charities or otherwise list as favourites - have a 'basket' of favourite charities
-- Get the ability to track what various people have selected (effectively, just an activity log - all you need is .
+- Get the ability to track what various people have selected (effectively, just an activity log - all you need is for it to write to a log or something when they're done).
 - Mailing list to remind people at tax time about their charity.
 - Search function - search the short descriptions of their work.
 
