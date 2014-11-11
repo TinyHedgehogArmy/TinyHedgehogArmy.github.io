@@ -8,6 +8,7 @@
 - [ ] Start compiling revenue numbers.
 - [ ] Manually code the holdouts
 - [ ] Scrape sites, get additional coding information (how to implement this?)
+- [ ] !!! Fix coding of formerly NULL rows (cystic fibrosis SA, etc).
 
 ##Design
 - [x] Decide on colour scheme
