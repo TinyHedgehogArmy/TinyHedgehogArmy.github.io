@@ -60,6 +60,7 @@
 - [ ] Code popup box with all the details of a particular result
 - [ ] Code help popups
 - [ ] Code ability to switch views as well as change filter (top 5 etc).
+- [ ] Use prepared statements!
 
 ##MySQL database
 - Use a temp table for the different sorts instead of querying the database multiple times
