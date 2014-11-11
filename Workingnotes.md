@@ -5,10 +5,10 @@
 - [x] Test if scraping google for the annual/financial reports is likely to give useful results (well, they're restricting to 100 per day, but that's OK.
 - [x] http://stackoverflow.com/questions/4490983/google-search-with-python/4491058#4491058 (Nah, not worth effort - manual)
 - [ ] Compile list from GiveNow.com.au as well.
-- [ ] Start compiling revenue numbers.
-- [ ] Manually code the holdouts
-- [ ] Scrape sites, get additional coding information (how to implement this?)
-- [ ] !!! Fix coding of formerly NULL rows (cystic fibrosis SA, etc).
+- [x] Start compiling revenue numbers.
+- [x] Manually code the holdouts
+- [x] Scrape sites, get additional coding information (how to implement this?)
+- [x] Fix coding of formerly NULL rows (cystic fibrosis SA, etc).
 
 ##Design
 - [x] Decide on colour scheme
@@ -55,15 +55,16 @@
 
 ##Results page
 - [ ] Decide on what this will look like (both after the decision page and straight)
-- [ ] Investigate how to pass from javascript to php
+- [x] Investigate how to pass from javascript to php
 - [x] Investigate firebase as an option (weak queries, which is the only reason I need a database in the first place)
-- [ ] Actually code in PHP/mySQL  
-- [ ] Make sure that people can come back to their answers! Each results page will have (by default) a unique URL, so we can just digest that and give it to them.
+- [x] Actually code in PHP/mySQL  
+- [x] Use prepared statements
+- [x] Make sure that people can come back to their answers! Each results page will have (by default) a unique URL, so we can just digest that and give it to them.
 - [ ] Program a fallback in case their selection doesn't have any results (ideally, with a notification sent to me)
 - [ ] Code popup box with all the details of a particular result
 - [ ] Code help popups
 - [ ] Code ability to switch views as well as change filter (top 5 etc).
-- [ ] Use prepared statements!
+- [ ] For top: Change view, filter, share, help. 
 
 ##MySQL database
 - Use a temp table for the different sorts instead of querying the database multiple times
