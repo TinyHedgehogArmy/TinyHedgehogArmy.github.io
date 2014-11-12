@@ -55,6 +55,7 @@
 
 ##Results page
 - changepath.nfshost.com/
+- http://changepath.nfshost.com/results.php?Type=Donate&NT=1&Environmental=1
 - [ ] Decide on what this will look like (both after the decision page and straight)
 - [x] Investigate how to pass from javascript to php
 - [x] Investigate firebase as an option (weak queries, which is the only reason I need a database in the first place)
