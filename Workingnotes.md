@@ -51,7 +51,7 @@
 - [x] Fix progress bar location and give heading.
 - [ ] Set up cookie so they don't lose progress (low priority)
 - [x] Add in webCodes for each question
-- [ ] Fix webCodes when they reset!
+- [x] Fix webCodes when they reset!
 
 ##Results page
 - [ ] Decide on what this will look like (both after the decision page and straight)
