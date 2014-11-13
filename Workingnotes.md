@@ -68,6 +68,7 @@
 - [ ] Code ability to switch views as well as change filter (top 5 etc).
 - [ ] For top: Change view, filter, share, help. 
 - [ ] Fix year established
+- [ ] Add 'This is wrong' flag (with report database)
 
 ##MySQL database
 - Use a temp table for the different sorts instead of querying the database multiple times
