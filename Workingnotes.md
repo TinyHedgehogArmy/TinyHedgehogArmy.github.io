@@ -9,6 +9,7 @@
 - [x] Manually code the holdouts
 - [x] Scrape sites, get additional coding information (how to implement this?)
 - [x] Fix coding of formerly NULL rows (cystic fibrosis SA, etc).
+- [ ] Ovarian cancer australia ratio.
 
 ##Design
 - [x] Decide on colour scheme
@@ -69,6 +70,7 @@
 - [ ] For top: Change view, filter, share, help. 
 - [ ] Fix year established
 - [ ] Add 'This is wrong' flag (with report database)
+- [ ] Add hover on tableheaders that can be clicked
 
 ##MySQL database
 - Use a temp table for the different sorts instead of querying the database multiple times
