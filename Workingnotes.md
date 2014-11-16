@@ -10,6 +10,7 @@
 - [x] Scrape sites, get additional coding information (how to implement this?)
 - [x] Fix coding of formerly NULL rows (cystic fibrosis SA, etc).
 - [ ] Ovarian cancer australia ratio.
+- [ ] Fix year of creation.
 
 ##Design
 - [x] Decide on colour scheme
