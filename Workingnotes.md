@@ -72,6 +72,7 @@
 - [ ] Fix year established
 - [ ] Add 'This is wrong' flag (with report database)
 - [ ] Add hover on tableheaders that can be clicked
+- [ ] Fix the fact that for small results the table gets ridiculously massive.
 
 ##MySQL database
 - Use a temp table for the different sorts instead of querying the database multiple times
