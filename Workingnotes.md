@@ -5,9 +5,12 @@
 - [x] Test if scraping google for the annual/financial reports is likely to give useful results (well, they're restricting to 100 per day, but that's OK.
 - [x] http://stackoverflow.com/questions/4490983/google-search-with-python/4491058#4491058 (Nah, not worth effort - manual)
 - [ ] Compile list from GiveNow.com.au as well.
-- [ ] Start compiling revenue numbers.
-- [ ] Manually code the holdouts
-- [ ] Scrape sites, get additional coding information (how to implement this?)
+- [x] Start compiling revenue numbers.
+- [x] Manually code the holdouts
+- [x] Scrape sites, get additional coding information (how to implement this?)
+- [x] Fix coding of formerly NULL rows (cystic fibrosis SA, etc).
+- [ ] Ovarian cancer australia and RSPCA QLD ratio.
+- [ ] Fix year of creation.
 
 ##Design
 - [x] Decide on colour scheme
@@ -16,15 +19,21 @@
 - [x] Create icons for the three options - list, curated, faq
 
 ##Main page
-- [ ] Write text
+- [x] Write text
 - [x] Fix logo (add writing to SVG?)
 - [ ] Do SEO kind of stuff
-- [ ] Create menu bar at top
+- [ ] Create menu bar at top - add 'Contact' and 'About'
 - [x] Implement mouseover and other similar behaviour
 - [x] Replace SVGs so they degrade gracefully in ie.
 - [x] Fix rendering using in-browser fonts of main SVG
-- [ ] Make it so that the top two boxes are in a wrapper of 70% vh, but can change height within that
+- [x] Make it so that the top two boxes are in a wrapper of 70% vh, but can change height within that
 - [ ] Fix images so that they're all the same height
+- [ ] Create 'Update' and 'New Charity' forms.
+- [ ] Add in google tracking
+- [ ] Test in Firefox/Safari/IE
+- [ ] Optimise for mobile and overall: https://developers.google.com/speed/pagespeed/insights/
+- [ ] Add more text for describing what we're doing and why
+- [ ] Use waypoints for fancy animation on viewport (low priority)
 
 ##Decision page
 - http://jsbin.com/carihurugute
@@ -36,28 +45,45 @@
 - http://jsbin.com/qolotazabi
 - http://jsbin.com/tupumevoqe
 - http://jsbin.com/xosuhu
-- [ ] Put in actual questions!
+- [x] Put in actual questions!
 - [x] Refine design
-- [ ] Decide on how it will fit within the larger website structure
+- [x] Decide on how it will fit within the larger website structure
 - [x] Add in visual representation of the breadcrumb
 - [x] Add in tracking of how far through they are
 - [x] Tooltips/mouseover information
 - [x] Click on breadcrumb to go back to that question (prompt for non-universal questions)
-- [ ] Set up cookie so they don't lose progress
-- [ ] Code help popups (https://github.com/heelhook/chardin.js could be the answer?)
+- [x] Code help popups (https://github.com/heelhook/chardin.js could be the answer?)
 - [ ] Make more mobile-friendly (reduce padding, increase text size on small screens)
 - [ ] Fix the animation so they fade rather than vanish entirely (low priority).
-- [ ] Fix progress bar location and give heading.
+- [x] Fix progress bar location and give heading.
+- [ ] Set up cookie so they don't lose progress (low priority)
+- [x] Add in webCodes for each question
+- [x] Fix webCodes when they reset!
 
 ##Results page
+- changepath.nfshost.com/
+- http://changepath.nfshost.com/results.php?Type=Donate&NT=1&Environmental=1
 - [ ] Decide on what this will look like (both after the decision page and straight)
-- [ ] Investigate how to pass from javascript to php
+- [x] Investigate how to pass from javascript to php
 - [x] Investigate firebase as an option (weak queries, which is the only reason I need a database in the first place)
-- [ ] Actually code in PHP/mySQL  
-- [ ] Make sure that people can come back to their answers! Each results page will have (by default) a unique URL, so we can just digest that and give it to them.
-- [ ] Program a fallback in case their selection doesn't have any results (ideally, with a notification sent to me)
-- [ ] Code popup box with all the details of a particular result
-- [ ] Code help popups (https://github.com/heelhook/chardin.js could be the answer?)
+- [x] Actually code in PHP/mySQL  
+- [x] Use prepared statements
+- [x] Make sure that people can come back to their answers! Each results page will have (by default) a unique URL, so we can just digest that and give it to them.
+- [x] Program a fallback in case their selection doesn't have any results (ideally, with a notification sent to me)
+- [x] Code popup box with all the details of a particular result
+- [x] For top: Change view, filter, share, help. 
+- [x] Fix the fact that for small results the table gets ridiculously massive.
+- [x] Have default values for simply going to the page
+- [x] Add hover on tableheaders that can be clicked
+- [ ] Code help popups
+- [ ] Code ability to switch views as well as change filter (top 5 etc).
+- [ ] Add 'This is wrong' flag (with report database)
+- [ ] Code welcome box if visiting from homepage
+- [ ] Implement different volunteer display
+
+##Display results
+- [ ] Add tables and improve formatting
+- [ ] Add 'help' flag and 'report' flag
 
 ##MySQL database
 - Use a temp table for the different sorts instead of querying the database multiple times
@@ -85,13 +111,15 @@ http://jsfiddle.net/rkEMR/
 #Phase II
 
 ##New functionality
+- Add short descriptions and logos for each charity
 - In-built donation function
 - Ability to donate to multiple charities at once.
 - Ability to donate without being pestered.
-- 'Star' charities or otherwise list as favourites - have a 'basket' of favourite charities
-- Get the ability to track what various people have selected (effectively, just an activity log - all you need is .
+- 'Star' charities or otherwise list as favourites - have a 'basket' of favourite charities (use PHP sessions)
+- Get the ability to track what various people have selected (effectively, just an activity log - all you need is for it to write to a log or something when they're done) - will Google track this?
 - Mailing list to remind people at tax time about their charity.
 - Search function - search the short descriptions of their work.
+- Add in AdSense if pageviews get high enough.
 
 ##New data
 - Three years of annual reports = 'fastest growing' metric available.
