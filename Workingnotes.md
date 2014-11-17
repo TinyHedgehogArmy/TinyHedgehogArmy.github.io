@@ -115,6 +115,7 @@ http://jsfiddle.net/rkEMR/
 - Get the ability to track what various people have selected (effectively, just an activity log - all you need is for it to write to a log or something when they're done) - will Google track this?
 - Mailing list to remind people at tax time about their charity.
 - Search function - search the short descriptions of their work.
+- Add in AdSense if pageviews get high enough.
 
 ##New data
 - Three years of annual reports = 'fastest growing' metric available.
