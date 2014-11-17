@@ -29,6 +29,10 @@
 - [x] Make it so that the top two boxes are in a wrapper of 70% vh, but can change height within that
 - [ ] Fix images so that they're all the same height
 - [ ] Create 'Update' and 'New Charity' forms.
+- [ ] Add in google tracking
+- [ ] Test in Firefox/Safari/IE
+- [ ] Optimise for mobile and overall: https://developers.google.com/speed/pagespeed/insights/
+- [ ] Add more text for describing what we're doing and why
 
 ##Decision page
 - http://jsbin.com/carihurugute
@@ -107,8 +111,8 @@ http://jsfiddle.net/rkEMR/
 - In-built donation function
 - Ability to donate to multiple charities at once.
 - Ability to donate without being pestered.
-- 'Star' charities or otherwise list as favourites - have a 'basket' of favourite charities
-- Get the ability to track what various people have selected (effectively, just an activity log - all you need is for it to write to a log or something when they're done).
+- 'Star' charities or otherwise list as favourites - have a 'basket' of favourite charities (use PHP sessions)
+- Get the ability to track what various people have selected (effectively, just an activity log - all you need is for it to write to a log or something when they're done) - will Google track this?
 - Mailing list to remind people at tax time about their charity.
 - Search function - search the short descriptions of their work.
 
