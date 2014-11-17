@@ -78,6 +78,7 @@
 - [ ] Add 'This is wrong' flag (with report database)
 - [ ] Add hover on tableheaders that can be clicked
 - [ ] Have default values for simply going to the page (and explanatory box).
+- [ ] Implement different volunteer display
 
 ##Display results
 - [ ] Add tables and improve formatting
