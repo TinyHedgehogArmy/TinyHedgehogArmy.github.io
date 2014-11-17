@@ -127,3 +127,98 @@ aside h2 {
 .boxspacer {
 	height:15%;
 }
+
+.blocktext {
+    color: #286E94;
+}
+
+.blocktext p {
+    margin-top: 20px;
+}
+
+.imageleft {
+    width:15%;
+    float:left;
+    padding: 5%;
+}
+
+
+.textright {
+    width:65%;
+    float:left;
+    padding: 5%;
+}
+
+#buttonlink {
+    margin-top: 30px;
+    padding: 20px;
+    text-decoration: none;
+    background-color: #52AEE1;
+    color: white;
+    display: block;
+    width: 150px;
+    text-align: center;
+    
+}
+
+#buttonlink:hover {
+    background-color: #C74F21;
+}
+
+.sideimg {
+    width: 100%;
+}
+
+.clear {
+    clear:both;
+}
+
+
+.footer {
+    width: 100%;
+    background-color: #286E94;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* About page specific css */
+
+
+.abheader {
+    width: 100%;
+    background-color: #286E94;
+    color: white;
+    padding: 60px;
+    text-align: center;
+}
+
+.contentwrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contentwrapper p {
+    margin:10px;
+}
+
+.contentwrapper li {
+    margin:10px 10px 10px 30px;
+}
+
+.contentbox {
+    clear:both;
+}
+
+.headingbox {
+    width: 20%;
+    padding: 2%;
+    float: left;
+}
+
+.maintextbox {
+    width: 64%;
+    padding: 2%;
+    float: left;
+}
+
