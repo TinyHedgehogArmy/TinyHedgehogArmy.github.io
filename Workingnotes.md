@@ -73,11 +73,12 @@
 - [x] Code popup box with all the details of a particular result
 - [x] For top: Change view, filter, share, help. 
 - [x] Fix the fact that for small results the table gets ridiculously massive.
+- [x] Have default values for simply going to the page
+- [x] Add hover on tableheaders that can be clicked
 - [ ] Code help popups
 - [ ] Code ability to switch views as well as change filter (top 5 etc).
 - [ ] Add 'This is wrong' flag (with report database)
-- [ ] Add hover on tableheaders that can be clicked
-- [ ] Have default values for simply going to the page (and explanatory box).
+- [ ] Code welcome box if visiting from homepage
 - [ ] Implement different volunteer display
 
 ##Display results
