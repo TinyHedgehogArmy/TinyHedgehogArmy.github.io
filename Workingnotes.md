@@ -64,15 +64,18 @@
 - [x] Actually code in PHP/mySQL  
 - [x] Use prepared statements
 - [x] Make sure that people can come back to their answers! Each results page will have (by default) a unique URL, so we can just digest that and give it to them.
-- [ ] Program a fallback in case their selection doesn't have any results (ideally, with a notification sent to me)
-- [ ] Code popup box with all the details of a particular result
+- [x] Program a fallback in case their selection doesn't have any results (ideally, with a notification sent to me)
+- [x] Code popup box with all the details of a particular result
+- [x] For top: Change view, filter, share, help. 
+- [x] Fix the fact that for small results the table gets ridiculously massive.
 - [ ] Code help popups
 - [ ] Code ability to switch views as well as change filter (top 5 etc).
-- [ ] For top: Change view, filter, share, help. 
-- [ ] Fix year established
 - [ ] Add 'This is wrong' flag (with report database)
 - [ ] Add hover on tableheaders that can be clicked
-- [ ] Fix the fact that for small results the table gets ridiculously massive.
+
+##Display results
+- [ ] Add tables and improve formatting
+- [ ] Add 'help' flag and 'report' flag
 
 ##MySQL database
 - Use a temp table for the different sorts instead of querying the database multiple times
