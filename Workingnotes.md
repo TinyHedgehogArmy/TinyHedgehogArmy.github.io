@@ -9,7 +9,7 @@
 - [x] Manually code the holdouts
 - [x] Scrape sites, get additional coding information (how to implement this?)
 - [x] Fix coding of formerly NULL rows (cystic fibrosis SA, etc).
-- [ ] Ovarian cancer australia ratio.
+- [ ] Ovarian cancer australia and RSPCA QLD ratio.
 - [ ] Fix year of creation.
 
 ##Design
@@ -77,6 +77,7 @@
 - [ ] Code ability to switch views as well as change filter (top 5 etc).
 - [ ] Add 'This is wrong' flag (with report database)
 - [ ] Add hover on tableheaders that can be clicked
+- [ ] Have default values for simply going to the page (and explanatory box).
 
 ##Display results
 - [ ] Add tables and improve formatting
