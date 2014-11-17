@@ -33,6 +33,7 @@
 - [ ] Test in Firefox/Safari/IE
 - [ ] Optimise for mobile and overall: https://developers.google.com/speed/pagespeed/insights/
 - [ ] Add more text for describing what we're doing and why
+- [ ] Use waypoints for fancy animation on viewport (low priority)
 
 ##Decision page
 - http://jsbin.com/carihurugute
