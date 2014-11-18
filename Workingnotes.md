@@ -31,9 +31,9 @@
 - [ ] Fix images so that they're all the same height
 - [ ] Create 'Update' and 'New Charity' forms.
 - [ ] Add in google tracking
-- [ ] Test in Firefox/Safari/IE
+- [x] Test in Firefox/Safari/IE
 - [ ] Optimise for mobile and overall: https://developers.google.com/speed/pagespeed/insights/
-- [ ] Add more text for describing what we're doing and why
+- [x] Add more text for describing what we're doing and why
 - [ ] Use waypoints for fancy animation on viewport (low priority)
 
 ##Decision page
@@ -78,11 +78,11 @@
 - [x] Add hover on tableheaders that can be clicked
 - [ ] Code help popups
 - [ ] Code ability to switch views as well as change filter (top 5 etc).
-- [ ] Add 'This is wrong' flag (with report database)
-- [ ] Code welcome box if visiting from homepage (default sort should REMOVE higher education)
+- [x] Add 'This is wrong' flag (with report database)
+- [x] Code welcome box if visiting from homepage (default sort should REMOVE higher education)
 - [ ] Implement different volunteer display
-- [ ] Fix bug in sorting (ie come in, click on sort column, breaks URL).
-- [ ] Fix bug where you can't click on the top smalltables anymore.
+- [x] Fix bug in sorting (ie come in, click on sort column, breaks URL).
+- [x] Fix bug where you can't click on the top smalltables anymore.
 
 ##Display results
 - [ ] Add tables and improve formatting
