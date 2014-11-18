@@ -11,6 +11,7 @@
 - [x] Fix coding of formerly NULL rows (cystic fibrosis SA, etc).
 - [ ] Ovarian cancer australia and RSPCA QLD ratio.
 - [ ] Fix year of creation.
+- [ ] Fix universities not being coded correctly.
 
 ##Design
 - [x] Decide on colour scheme
@@ -78,8 +79,10 @@
 - [ ] Code help popups
 - [ ] Code ability to switch views as well as change filter (top 5 etc).
 - [ ] Add 'This is wrong' flag (with report database)
-- [ ] Code welcome box if visiting from homepage
+- [ ] Code welcome box if visiting from homepage (default sort should REMOVE higher education)
 - [ ] Implement different volunteer display
+- [ ] Fix bug in sorting (ie come in, click on sort column, breaks URL).
+- [ ] Fix bug where you can't click on the top smalltables anymore.
 
 ##Display results
 - [ ] Add tables and improve formatting
