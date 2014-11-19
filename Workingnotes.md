@@ -33,6 +33,7 @@
 - [ ] Create 'Update' and 'New Charity' forms.
 - [ ] Add in google tracking
 - [ ] Optimise for mobile and overall: https://developers.google.com/speed/pagespeed/insights/
+- [ ] Define viewport (see pagespeed)
 - [ ] Add logo into header for all pages, have it link to home
 - [ ] Use waypoints for fancy animation on viewport (low priority)
 
