@@ -4,14 +4,13 @@
 - [x] Compile together all the datasets
 - [x] Test if scraping google for the annual/financial reports is likely to give useful results (well, they're restricting to 100 per day, but that's OK.
 - [x] http://stackoverflow.com/questions/4490983/google-search-with-python/4491058#4491058 (Nah, not worth effort - manual)
-- [ ] Compile list from GiveNow.com.au as well.
 - [x] Start compiling revenue numbers.
 - [x] Manually code the holdouts
 - [x] Scrape sites, get additional coding information (how to implement this?)
 - [x] Fix coding of formerly NULL rows (cystic fibrosis SA, etc).
-- [ ] Ovarian cancer australia and RSPCA QLD ratio.
-- [ ] Fix year of creation.
-- [ ] Fix universities not being coded correctly.
+- [x] Ovarian cancer australia and RSPCA QLD ratio.
+- [x] Fix year of creation.
+- [x] Fix universities not being coded correctly.
 
 ##Design
 - [x] Decide on colour scheme
@@ -57,7 +56,7 @@
 - [x] Fix progress bar location and give heading.
 - [x] Add in webCodes for each question
 - [x] Fix webCodes when they reset!
-- [ ] Fix design - new banner at top, move down help button
+- [x] Fix design - new banner at top, move down help button
 - [ ] Make more mobile-friendly (reduce padding, increase text size on small screens, have tabs for top 5 lists)
 - [ ] Fix the animation so they fade rather than vanish entirely (low priority).
 - [ ] Set up cookie so they don't lose progress (low priority)
@@ -89,9 +88,12 @@
 - [ ] Add 'Next' and 'Prev' buttons for pages
 
 ##Display results
-- [ ] Add tables and improve formatting
-- [ ] Error conditions for '$0' finances
-- [ ] Add 'help' flag and 'report' flag
+- [x] Add tables and improve formatting
+- [x] Error conditions for '$0' finances
+- [x] Add 'report' flag
+- [ ] Add 'help' flag 
+- [ ] Make canvas width depend on window width
+- [ ] Fix formatting on smaller screens
 
 ##MySQL database
 - Use a temp table for the different sorts instead of querying the database multiple times
