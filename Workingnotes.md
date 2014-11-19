@@ -22,18 +22,18 @@
 ##Main page
 - [x] Write text
 - [x] Fix logo (add writing to SVG?)
-- [ ] Do SEO kind of stuff
-- [ ] Create menu bar at top - add 'Contact' and 'About'
 - [x] Implement mouseover and other similar behaviour
 - [x] Replace SVGs so they degrade gracefully in ie.
 - [x] Fix rendering using in-browser fonts of main SVG
 - [x] Make it so that the top two boxes are in a wrapper of 70% vh, but can change height within that
+- [x] Test in Firefox/Safari/IE
+- [x] Add more text for describing what we're doing and why
+- [ ] Do SEO kind of stuff
+- [ ] Create menu bar at top - add 'Contact' and 'About'
 - [ ] Fix images so that they're all the same height
 - [ ] Create 'Update' and 'New Charity' forms.
 - [ ] Add in google tracking
-- [x] Test in Firefox/Safari/IE
 - [ ] Optimise for mobile and overall: https://developers.google.com/speed/pagespeed/insights/
-- [x] Add more text for describing what we're doing and why
 - [ ] Use waypoints for fancy animation on viewport (low priority)
 
 ##Decision page
@@ -54,17 +54,18 @@
 - [x] Tooltips/mouseover information
 - [x] Click on breadcrumb to go back to that question (prompt for non-universal questions)
 - [x] Code help popups (https://github.com/heelhook/chardin.js could be the answer?)
-- [ ] Make more mobile-friendly (reduce padding, increase text size on small screens)
-- [ ] Fix the animation so they fade rather than vanish entirely (low priority).
 - [x] Fix progress bar location and give heading.
-- [ ] Set up cookie so they don't lose progress (low priority)
 - [x] Add in webCodes for each question
 - [x] Fix webCodes when they reset!
+- [ ] Fix design - new banner at top, move down help button
+- [ ] Make more mobile-friendly (reduce padding, increase text size on small screens)
+- [ ] Fix the animation so they fade rather than vanish entirely (low priority).
+- [ ] Set up cookie so they don't lose progress (low priority)
 
 ##Results page
 - changepath.nfshost.com/
 - http://changepath.nfshost.com/results.php?Type=Donate&NT=1&Environmental=1
-- [ ] Decide on what this will look like (both after the decision page and straight)
+- [x] Decide on what this will look like (both after the decision page and straight)
 - [x] Investigate how to pass from javascript to php
 - [x] Investigate firebase as an option (weak queries, which is the only reason I need a database in the first place)
 - [x] Actually code in PHP/mySQL  
@@ -76,13 +77,13 @@
 - [x] Fix the fact that for small results the table gets ridiculously massive.
 - [x] Have default values for simply going to the page
 - [x] Add hover on tableheaders that can be clicked
-- [ ] Code help popups
-- [ ] Code ability to switch views as well as change filter (top 5 etc).
+- [x] Code ability to switch views as well as change filter (top 5 etc).
 - [x] Add 'This is wrong' flag (with report database)
 - [x] Code welcome box if visiting from homepage (default sort should REMOVE higher education)
-- [ ] Implement different volunteer display
+- [x] Implement different volunteer display
 - [x] Fix bug in sorting (ie come in, click on sort column, breaks URL).
 - [x] Fix bug where you can't click on the top smalltables anymore.
+- [ ] Code help popups
 
 ##Display results
 - [ ] Add tables and improve formatting
