@@ -58,7 +58,7 @@
 - [x] Add in webCodes for each question
 - [x] Fix webCodes when they reset!
 - [ ] Fix design - new banner at top, move down help button
-- [ ] Make more mobile-friendly (reduce padding, increase text size on small screens)
+- [ ] Make more mobile-friendly (reduce padding, increase text size on small screens, have tabs for top 5 lists)
 - [ ] Fix the animation so they fade rather than vanish entirely (low priority).
 - [ ] Set up cookie so they don't lose progress (low priority)
 
