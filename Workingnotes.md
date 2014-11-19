@@ -27,10 +27,10 @@
 - [x] Make it so that the top two boxes are in a wrapper of 70% vh, but can change height within that
 - [x] Test in Firefox/Safari/IE
 - [x] Add more text for describing what we're doing and why
+- [x] Create 'Update' and 'New Charity' forms.
 - [ ] Do SEO kind of stuff
 - [ ] Create menu bar at top - add 'Contact' and 'About'
 - [ ] Fix images so that they're all the same height
-- [ ] Create 'Update' and 'New Charity' forms.
 - [ ] Add in google tracking
 - [ ] Optimise for mobile and overall: https://developers.google.com/speed/pagespeed/insights/
 - [ ] Define viewport (see pagespeed)
