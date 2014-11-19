@@ -84,9 +84,13 @@
 - [x] Fix bug in sorting (ie come in, click on sort column, breaks URL).
 - [x] Fix bug where you can't click on the top smalltables anymore.
 - [ ] Code help popups
+- [ ] Code help on hover for rating, ratio
+- [ ] Fix formatting on smaller screens
+- [ ] Add 'Next' and 'Prev' buttons for pages
 
 ##Display results
 - [ ] Add tables and improve formatting
+- [ ] Error conditions for '$0' finances
 - [ ] Add 'help' flag and 'report' flag
 
 ##MySQL database
