@@ -237,14 +237,13 @@ aside h2 {
 	}
 	
 	.boxes {
-		display: table;  
+		display:flex; 
 	}
 	
 	.firstbox, .secondbox, .thirdbox {
 		height: auto;
 		padding: 5%;
 		width: 20%;
-		display: table-cell; 
 	}
 	
 	.secondbox {
