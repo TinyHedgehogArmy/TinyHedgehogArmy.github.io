@@ -227,10 +227,18 @@ aside h2 {
 		height: auto;
 		padding: 10%;
 		font-size: 0.8em;
+		top: auto;
+		-ms-transform: none;
+		-webkit-transform: none;
+		transform: none;
 	}
 	
 	.firstbox, .secondbox, .thirdbox {
 		height: auto;
-		padding: 10%;
-	}	
+		padding: 5%;
+		width: 20%;
+	}
+	
+
+
 }
