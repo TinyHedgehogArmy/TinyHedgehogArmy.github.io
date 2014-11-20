@@ -236,16 +236,27 @@ aside h2 {
 		transform: none;
 	}
 	
+	.boxes {
+		display: table;  
+	}
+	
 	.firstbox, .secondbox, .thirdbox {
 		height: auto;
 		padding: 5%;
 		width: 20%;
+		display: table-cell; 
 	}
 	
 	.secondbox {
 		width: 30%
 	}
 	
+	.img-container img {
+		vertical-align: middle;
+		display: inline-block;
+		max-height: 80%;  /* <-- Set maximum height to 100% of its parent */
+		max-width: 80%;   /* <-- Set maximum width to 100% of its parent */
+	}
 
 
 }
