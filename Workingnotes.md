@@ -3,11 +3,13 @@
 ##Final stuff
 - [ ] Add in breadcrumb for results page
 - [ ] Hover details for transparency
-- [ ] Add logo to guide
+- [x] Add logo to guide
+- [x] Fix the text that appears above the guide page! (replace with own overlay thing?)
 - [ ] Code help popups
 - [ ] Add 'Next' and 'Prev' buttons for pages
 - [ ] Fix images on homepage
-- [ ] Fix the text that appears above the guide page! (replace with own overlay thing?)
+- [ ] Compress all images
+
 
 ##Data creation and cleaning
 - [x] Compile together all the datasets
@@ -42,8 +44,8 @@
 - [ ] Fix images so that they're all the same height
 - [x] Add in google tracking
 - [ ] Optimise for mobile and overall: https://developers.google.com/speed/pagespeed/insights/
-- [ ] Define viewport (see pagespeed)
-- [ ] Add logo into header for all pages, have it link to home
+- [x] Define viewport (see pagespeed)
+- [x] Add logo into header for all pages, have it link to home
 - [ ] Use waypoints for fancy animation on viewport (low priority)
 
 ##Decision page
