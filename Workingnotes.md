@@ -1,5 +1,14 @@
 #To do list
 
+##Final stuff
+- [ ] Add in breadcrumb for results page
+- [ ] Hover details for transparency
+- [ ] Add logo to guide
+- [ ] Code help popups
+- [ ] Add 'Next' and 'Prev' buttons for pages
+- [ ] Fix images on homepage
+- [ ] Fix the text that appears above the guide page! (replace with own overlay thing?)
+
 ##Data creation and cleaning
 - [x] Compile together all the datasets
 - [x] Test if scraping google for the annual/financial reports is likely to give useful results (well, they're restricting to 100 per day, but that's OK.
@@ -31,7 +40,7 @@
 - [ ] Do SEO kind of stuff
 - [ ] Create menu bar at top - add 'Contact' and 'About'
 - [ ] Fix images so that they're all the same height
-- [ ] Add in google tracking
+- [x] Add in google tracking
 - [ ] Optimise for mobile and overall: https://developers.google.com/speed/pagespeed/insights/
 - [ ] Define viewport (see pagespeed)
 - [ ] Add logo into header for all pages, have it link to home
@@ -86,7 +95,7 @@
 - [x] Fix bug where you can't click on the top smalltables anymore.
 - [ ] Code help popups
 - [ ] Code help on hover for rating, ratio
-- [ ] Fix formatting on smaller screens
+- [x] Fix formatting on smaller screens
 - [ ] Add 'Next' and 'Prev' buttons for pages
 
 ##Display results
@@ -94,8 +103,8 @@
 - [x] Error conditions for '$0' finances
 - [x] Add 'report' flag
 - [ ] Add 'help' flag 
-- [ ] Make canvas width depend on window width
-- [ ] Fix formatting on smaller screens
+- [x] Make canvas width depend on window width
+- [x] Fix formatting on smaller screens
 
 ##MySQL database
 - Use a temp table for the different sorts instead of querying the database multiple times
