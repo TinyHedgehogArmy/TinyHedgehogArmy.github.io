@@ -1,15 +1,16 @@
 #To do list
 
 ##Final stuff
-- [ ] Add in breadcrumb for results page
-- [ ] Hover details for transparency
+- [x] Add in breadcrumb for results page
+- [x] Hover details for transparency
 - [x] Add logo to guide
 - [x] Fix the text that appears above the guide page! (replace with own overlay thing?)
+- [x] Add 'Next' and 'Prev' buttons for pages
+- [x] Compress all images
+- [x] Fix images on homepage
 - [ ] Code help popups
-- [ ] Add 'Next' and 'Prev' buttons for pages
-- [ ] Fix images on homepage
-- [ ] Compress all images
-
+- [x] Fix small screens results page
+- [ ] Fix design about page
 
 ##Data creation and cleaning
 - [x] Compile together all the datasets
@@ -96,9 +97,9 @@
 - [x] Fix bug in sorting (ie come in, click on sort column, breaks URL).
 - [x] Fix bug where you can't click on the top smalltables anymore.
 - [ ] Code help popups
-- [ ] Code help on hover for rating, ratio
+- [x] Code help on hover for rating, ratio
 - [x] Fix formatting on smaller screens
-- [ ] Add 'Next' and 'Prev' buttons for pages
+- [x] Add 'Next' and 'Prev' buttons for pages
 
 ##Display results
 - [x] Add tables and improve formatting
