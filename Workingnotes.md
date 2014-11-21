@@ -10,7 +10,6 @@
 - Change to lgbti
 - Donate overseas fix
 - Dad text fixes
-- 
 
 ## Phase 2 to implement
 - Pick mutliple areas or groups of people
