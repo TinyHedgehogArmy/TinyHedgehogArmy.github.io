@@ -1,5 +1,27 @@
 #To do list
 
+##Bug fixes and improvements
+
+- Fix width of bottom bar on homepage
+- fix clickable divs safari homepage
+- fix aside text align safari
+- fix progress bar
+- Add 'donate now' button
+- Change to lgbti
+- Donate overseas fix
+- Dad text fixes
+- 
+
+## Phase 2 to implement
+- Pick mutliple areas or groups of people
+- Search button
+- Social media stream
+- Relevancy - use core activity? Or how many others also ticked?
+- featured paths. Stories of different people's paths.
+- Blog/twitter account talking about transparency
+- Charity pictures
+
+
 ##Final stuff
 - [x] Add in breadcrumb for results page
 - [x] Hover details for transparency
