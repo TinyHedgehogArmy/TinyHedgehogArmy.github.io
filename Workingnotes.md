@@ -10,7 +10,7 @@
 - [x] Fix images on homepage
 - [ ] Code help popups
 - [x] Fix small screens results page
-- [ ] Fix design about page
+- [x] Fix design about page
 
 ##Data creation and cleaning
 - [x] Compile together all the datasets
