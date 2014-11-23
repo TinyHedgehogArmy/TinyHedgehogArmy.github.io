@@ -2,23 +2,24 @@
 
 ##Bug fixes and improvements
 
-- Fix width of bottom bar on homepage
-- fix clickable divs safari homepage
-- fix aside text align safari
-- fix progress bar
-- Add 'donate now' button
-- Change to lgbti
-- Donate overseas fix
-- Dad text fixes
+- [x] Fix width of bottom bar on homepage
+- [ ] fix clickable divs safari homepage (difficult to test without mac!)
+- [ ] fix aside text align safari (difficult to test without mac!)
+- [ ] fix progress bar
+- [x] Add 'donate now' button
+- [x] Change to lgbti
+- [x] Donate overseas fix
+- [ ] Dad text fixes
 
 ## Phase 2 to implement
-- Pick mutliple areas or groups of people
-- Search button
-- Social media stream
-- Relevancy - use core activity? Or how many others also ticked?
-- featured paths. Stories of different people's paths.
-- Blog/twitter account talking about transparency
-- Charity pictures
+- [ ] Pick mutliple areas or groups of people
+- [ ] Search button
+- [ ] Social media stream
+- [ ] Relevancy - use core activity? Or how many others also ticked?
+- [ ] featured paths. Stories of different people's paths.
+- [ ] Blog/twitter account talking about transparency
+- [ ] Charity pictures
+- [ ] Improve donation button
 
 
 ##Final stuff
