@@ -5,20 +5,22 @@
 - [x] Fix width of bottom bar on homepage
 - [ ] fix clickable divs safari homepage (difficult to test without mac!)
 - [ ] fix aside text align safari (difficult to test without mac!)
-- [ ] fix progress bar
+- [x] fix progress bar (async removed, should work)
 - [x] Add 'donate now' button
 - [x] Change to lgbti
 - [x] Donate overseas fix
-- [ ] Dad text fixes
+- [x] Dad text fixes
+- [ ] BlueCare - no details
 
 ## Phase 2 to implement
-- [ ] Pick mutliple areas or groups of people
 - [ ] Search button
+- [ ] Pick mutliple areas or groups of people
 - [ ] Social media stream
 - [ ] Relevancy - use core activity? Or how many others also ticked?
-- [ ] featured paths. Stories of different people's paths.
+- [ ] Featured paths. Stories of different people's paths.
 - [ ] Blog/twitter account talking about transparency
 - [ ] Charity pictures
+- [ ] Personal dashboard
 - [ ] Improve donation button
 
 
