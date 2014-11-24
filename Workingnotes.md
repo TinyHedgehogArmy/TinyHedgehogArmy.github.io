@@ -13,7 +13,7 @@
 - [ ] BlueCare - no details
 
 ## Phase 2 to implement
-- [ ] Search button
+- [x] Search button
 - [ ] Pick mutliple areas or groups of people
 - [ ] Social media stream
 - [ ] Relevancy - use core activity? Or how many others also ticked?
