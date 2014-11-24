@@ -4,24 +4,29 @@
 
 - [x] Fix width of bottom bar on homepage
 - [ ] fix clickable divs safari homepage (difficult to test without mac!)
-- [ ] fix aside text align safari (difficult to test without mac!)
+- [x] fix aside text align safari (difficult to test without mac!)
 - [x] fix progress bar (async removed, should work)
 - [x] Add 'donate now' button
 - [x] Change to lgbti
 - [x] Donate overseas fix
 - [x] Dad text fixes
 - [ ] BlueCare - no details
+- [ ] More help hovers on results page
+- [ ] Proofread, simplify language
+- [ ] Simplify headings
+- [ ] Add ACNC attribution to the footer, put on results page http://data.gov.au/dataset/acnc-register
 
 ## Phase 2 to implement
 - [x] Search button
 - [ ] Pick mutliple areas or groups of people
 - [ ] Social media stream
-- [ ] Relevancy - use core activity? Or how many others also ticked?
+- [ ] Relevancy - use core activity? Or how many others also ticked? Use the data collected from the other websites?
 - [ ] Featured paths. Stories of different people's paths.
 - [ ] Blog/twitter account talking about transparency
 - [ ] Charity pictures
 - [ ] Personal dashboard
 - [ ] Improve donation button
+- [ ] Put 'starter' for guide on homepage - ask them a single question, then take them to the question engine.
 
 
 ##Final stuff
