@@ -10,18 +10,21 @@
 - [x] Change to lgbti
 - [x] Donate overseas fix
 - [x] Dad text fixes
-- [ ] BlueCare - no details
-- [ ] More help hovers on results page
+- [x] More help hovers on results page
+- [x] Add ACNC attribution to the footer, put on results page http://data.gov.au/dataset/acnc-register
+- [x] Add hover bottom border homepage
+- [x] Clear google problems in database
+- [x] Add report button to main page
 - [ ] Proofread, simplify language
 - [ ] Simplify headings
-- [ ] Add ACNC attribution to the footer, put on results page http://data.gov.au/dataset/acnc-register
+- [ ] BlueCare - no details
 
 ## Phase 2 to implement
 - [x] Search button
-- [ ] Pick mutliple areas or groups of people
+- [ ] Pick multiple areas or groups of people
 - [ ] Social media stream
 - [ ] Relevancy - use core activity? Or how many others also ticked? Use the data collected from the other websites?
-- [ ] Featured paths. Stories of different people's paths.
+- [ ] Featured paths. Stories of different people's paths. Current story on homepage with recommended charities
 - [ ] Blog/twitter account talking about transparency
 - [ ] Charity pictures
 - [ ] Personal dashboard
