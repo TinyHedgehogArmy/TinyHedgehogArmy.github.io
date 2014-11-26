@@ -22,7 +22,14 @@
 - [ ] Make less new windows open?
 - [ ] BlueCare - no details
 - [ ] Pacfa - Change details
-- [ ] Add meta descriptions to all pages
+- [ ] Add meta descriptions to all pages (dynamic ones for the php pages!)
+- [ ] Add AMCS (Australian marine conservation society)
+- [ ] Fix failed search UX - make it so that searches don't redirect, you just get a 'no results' page with the ability to search again OR fill in the 'missing charity' page.
+
+## Pretty URLS
+- http://code.tutsplus.com/tutorials/an-in-depth-guide-to-mod_rewrite-for-apache--net-6708
+- http://www.generateit.net/mod-rewrite/index.php
+
 
 ##Traffic driving
 - [ ] Start a forum
