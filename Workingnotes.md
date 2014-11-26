@@ -19,12 +19,14 @@
 - [ ] Simplify headings
 - [x] Fix footer on About page
 - [x] Fix ABN number
-- [ ] Make less new windows open?
-- [ ] BlueCare - no details
-- [ ] Pacfa - Change details
-- [ ] Add meta descriptions to all pages (dynamic ones for the php pages!)
-- [ ] Add AMCS (Australian marine conservation society)
-- [ ] Fix failed search UX - make it so that searches don't redirect, you just get a 'no results' page with the ability to search again OR fill in the 'missing charity' page.
+- [x] Make less new windows open?
+- [x] BlueCare - no details
+- [x] Pacfa - Change details
+- [x] Add meta descriptions to all pages (dynamic ones for the php pages!)
+- [x] Add AMCS (Australian marine conservation society)
+- [x] Fix failed search UX - make it so that searches don't redirect, you just get a 'no results' page with the ability to search again OR fill in the 'missing charity' page.
+- [x] Create Dashboard
+- [ ] Start a forum/mailing list
 
 ## Pretty URLS
 - http://code.tutsplus.com/tutorials/an-in-depth-guide-to-mod_rewrite-for-apache--net-6708
@@ -32,7 +34,7 @@
 
 
 ##Traffic driving
-- [ ] Start a forum
+
 - [ ] Create facebook group
 - [ ] Submit to StumbleUpon
 - [ ] Submit to Reddit(?)
@@ -48,7 +50,7 @@
 - [ ] Featured paths. Stories of different people's paths. Current story on homepage with recommended charities
 - [ ] Blog/twitter account talking about transparency
 - [ ] Charity pictures
-- [ ] Personal dashboard
+- [x] Personal dashboard
 - [ ] Improve donation button
 - [ ] Put 'starter' for guide on homepage - ask them a single question, then take them to the question engine.
 
