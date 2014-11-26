@@ -17,7 +17,21 @@
 - [x] Add report button to main page
 - [ ] Proofread, simplify language
 - [ ] Simplify headings
+- [x] Fix footer on About page
+- [x] Fix ABN number
+- [ ] Make less new windows open?
 - [ ] BlueCare - no details
+- [ ] Pacfa - Change details
+- [ ] Add meta descriptions to all pages
+
+##Traffic driving
+- [ ] Start a forum
+- [ ] Create facebook group
+- [ ] Submit to StumbleUpon
+- [ ] Submit to Reddit(?)
+- [ ] Answer questions on Quora
+- [ ] (Later) Consider writing posts for the Conversation
+- [ ] (Later) Consider writing posts for other blogs on the topic
 
 ## Phase 2 to implement
 - [x] Search button
