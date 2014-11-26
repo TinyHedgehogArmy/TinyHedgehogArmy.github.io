@@ -27,6 +27,14 @@
 - [x] Fix failed search UX - make it so that searches don't redirect, you just get a 'no results' page with the ability to search again OR fill in the 'missing charity' page.
 - [x] Create Dashboard
 - [ ] Start a forum/mailing list
+- [ ] Better ratio explanation
+- [ ] Tooltips on display page
+- [ ] Put navigation in footer!
+- [ ] Fix colours for drop down boxes (more contrast)
+- [ ] Fix text size on large monitors
+- [ ] Add donation/volunteer icons (from FontAwesome?)
+- [ ] Add bio to about page
+- [ ] Add prompt to share on successful click through to results page from guide
 
 ## Pretty URLS
 - http://code.tutsplus.com/tutorials/an-in-depth-guide-to-mod_rewrite-for-apache--net-6708
