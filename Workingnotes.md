@@ -2,44 +2,26 @@
 
 ##Bug fixes and improvements
 
-- [x] Fix width of bottom bar on homepage
+- [ ] Add prompt to share on successful click through to results page from guide
+- [ ] Add bio to about page
+- [ ] Fix colours for drop down boxes (more contrast)
 - [ ] fix clickable divs safari homepage (difficult to test without mac!)
-- [x] fix aside text align safari (difficult to test without mac!)
-- [x] fix progress bar (async removed, should work)
-- [x] Add 'donate now' button
-- [x] Change to lgbti
-- [x] Donate overseas fix
-- [x] Dad text fixes
-- [x] More help hovers on results page
-- [x] Add ACNC attribution to the footer, put on results page http://data.gov.au/dataset/acnc-register
-- [x] Add hover bottom border homepage
-- [x] Clear google problems in database
-- [x] Add report button to main page
-- [ ] Proofread, simplify language
-- [ ] Simplify headings
-- [x] Fix footer on About page
-- [x] Fix ABN number
-- [x] Make less new windows open?
-- [x] BlueCare - no details
-- [x] Pacfa - Change details
-- [x] Add meta descriptions to all pages (dynamic ones for the php pages!)
-- [x] Add AMCS (Australian marine conservation society)
-- [x] Fix failed search UX - make it so that searches don't redirect, you just get a 'no results' page with the ability to search again OR fill in the 'missing charity' page.
-- [x] Create Dashboard
+- [ ] Proofread, simplify language and headings
 - [ ] Start a forum/mailing list
-- [ ] Better ratio explanation
+- [ ] Better ratio explanation - how to do so?
 - [ ] Tooltips on display page
 - [ ] Put navigation in footer!
-- [ ] Fix colours for drop down boxes (more contrast)
 - [ ] Fix text size on large monitors
 - [ ] Add donation/volunteer icons (from FontAwesome?)
-- [ ] Add bio to about page
-- [ ] Add prompt to share on successful click through to results page from guide
+
 
 ## Pretty URLS
 - http://code.tutsplus.com/tutorials/an-in-depth-guide-to-mod_rewrite-for-apache--net-6708
 - http://www.generateit.net/mod-rewrite/index.php
 
+## Add charities
+- [ ] Add communities overseas/asylum seekers - ASRC, http://asylumseekerscentre.org.au/, http://www.refugeecouncil.org.au/
+- [ ] Check HIV charities: https://www.everydayhero.com.au/charity/search_for_a_charity?terms=9&search_type=tag
 
 ##Traffic driving
 
@@ -171,6 +153,31 @@
 - [ ] Add 'help' flag 
 - [x] Make canvas width depend on window width
 - [x] Fix formatting on smaller screens
+
+##Bugs fixed
+- [x] Fix width of bottom bar on homepage
+
+- [x] fix aside text align safari (difficult to test without mac!)
+- [x] fix progress bar (async removed, should work)
+- [x] Add 'donate now' button
+- [x] Change to lgbti
+- [x] Donate overseas fix
+- [x] Dad text fixes
+- [x] More help hovers on results page
+- [x] Add ACNC attribution to the footer, put on results page http://data.gov.au/dataset/acnc-register
+- [x] Add hover bottom border homepage
+- [x] Clear google problems in database
+- [x] Add report button to main page
+- [x] Fix footer on About page
+- [x] Fix ABN number
+- [x] Make less new windows open?
+- [x] BlueCare - no details
+- [x] Pacfa - Change details
+- [x] Add meta descriptions to all pages (dynamic ones for the php pages!)
+- [x] Add AMCS (Australian marine conservation society)
+- [x] Fix failed search UX - make it so that searches don't redirect, you just get a 'no results' page with the ability to search again OR fill in the 'missing charity' page.
+- [x] Create Dashboard
+
 
 ##MySQL database
 - Use a temp table for the different sorts instead of querying the database multiple times
