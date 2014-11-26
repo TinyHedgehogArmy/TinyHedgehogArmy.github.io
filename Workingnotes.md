@@ -5,6 +5,7 @@
 - [ ] Add prompt to share on successful click through to results page from guide
 - [ ] Add bio to about page
 - [ ] Fix colours for drop down boxes (more contrast)
+- [ ] Add tags to each charity to help them be searched more easily
 - [ ] fix clickable divs safari homepage (difficult to test without mac!)
 - [ ] Proofread, simplify language and headings
 - [ ] Start a forum/mailing list
