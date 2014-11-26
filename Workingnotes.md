@@ -30,8 +30,8 @@
 - [ ] Submit to StumbleUpon
 - [ ] Submit to Reddit(?)
 - [ ] Answer questions on Quora
-- [ ] (Later) Consider writing posts for the Conversation
-- [ ] (Later) Consider writing posts for other blogs on the topic
+- [ ] Consider writing posts for the Conversation (later)
+- [ ] Consider writing posts for other blogs on the topic (later)
 
 ## Phase 2 to implement
 - [x] Search button
