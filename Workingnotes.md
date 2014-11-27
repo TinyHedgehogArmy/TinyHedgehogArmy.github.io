@@ -23,6 +23,7 @@
 ## Add charities
 - [ ] Add communities overseas/asylum seekers - ASRC, http://asylumseekerscentre.org.au/, http://www.refugeecouncil.org.au/
 - [ ] Check HIV charities: https://www.everydayhero.com.au/charity/search_for_a_charity?terms=9&search_type=tag
+- [ ] Ronald mcdonald house
 
 ##Traffic driving
 
