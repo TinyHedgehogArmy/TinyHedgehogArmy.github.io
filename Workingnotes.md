@@ -2,6 +2,7 @@
 
 ##Bug fixes and improvements
 
+- [ ] Fix form validation!!!
 - [ ] Add prompt to share on successful click through to results page from guide
 - [ ] Add bio to about page
 - [ ] Fix colours for drop down boxes (more contrast)
