@@ -27,6 +27,7 @@
 - [ ] Ronald mcdonald house
 - [ ] ANZUP
 - [ ] PetRescue
+- [ ] Medicins Sans Frontieres
 
 ##Traffic driving
 
