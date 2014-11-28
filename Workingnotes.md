@@ -2,7 +2,7 @@
 
 ##Bug fixes and improvements
 
-- [ ] Fix form validation!!!
+- [x] Fix form validation!!!
 - [ ] Add prompt to share on successful click through to results page from guide
 - [ ] Add bio to about page
 - [ ] Fix colours for drop down boxes (more contrast)
@@ -25,6 +25,8 @@
 - [ ] Add communities overseas/asylum seekers - ASRC, http://asylumseekerscentre.org.au/, http://www.refugeecouncil.org.au/
 - [ ] Check HIV charities: https://www.everydayhero.com.au/charity/search_for_a_charity?terms=9&search_type=tag
 - [ ] Ronald mcdonald house
+- [ ] ANZUP
+- [ ] PetRescue
 
 ##Traffic driving
 
