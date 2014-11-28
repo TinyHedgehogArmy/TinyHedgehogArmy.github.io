@@ -3,18 +3,17 @@
 ##Bug fixes and improvements
 
 - [x] Fix form validation!!!
-- [ ] Add prompt to share on successful click through to results page from guide
-- [ ] Add bio to about page
-- [ ] Fix colours for drop down boxes (more contrast)
-- [ ] Add tags to each charity to help them be searched more easily
-- [ ] fix clickable divs safari homepage (difficult to test without mac!)
+- [x] Add prompt to share on successful click through to results page from guide
+- [x] Add bio to about page
+- [x] Fix colours for drop down boxes (more contrast)
+- [x] Add tags to each charity to help them be searched more easily
+- [x] fix clickable divs safari homepage (difficult to test without mac!)
+- [x] Better ratio explanation - how to do so?
+- [x] Put navigation in footer!
+- [x] Add donation/volunteer icons (from FontAwesome?)
 - [ ] Proofread, simplify language and headings
-- [ ] Start a forum/mailing list
-- [ ] Better ratio explanation - how to do so?
-- [ ] Tooltips on display page
-- [ ] Put navigation in footer!
 - [ ] Fix text size on large monitors
-- [ ] Add donation/volunteer icons (from FontAwesome?)
+- [ ] Tooltips on display page
 
 
 ## Pretty URLS
@@ -22,15 +21,15 @@
 - http://www.generateit.net/mod-rewrite/index.php
 
 ## Add charities
-- [ ] Add communities overseas/asylum seekers - ASRC, http://asylumseekerscentre.org.au/, http://www.refugeecouncil.org.au/
-- [ ] Check HIV charities: https://www.everydayhero.com.au/charity/search_for_a_charity?terms=9&search_type=tag
-- [ ] Ronald mcdonald house
-- [ ] ANZUP
-- [ ] PetRescue
-- [ ] Medicins Sans Frontieres
+- [x] Add communities overseas/asylum seekers - ASRC, http://asylumseekerscentre.org.au/, http://www.refugeecouncil.org.au/
+- [x] Check HIV charities: https://www.everydayhero.com.au/charity/search_for_a_charity?terms=9&search_type=tag
+- [x] Ronald mcdonald house
+- [x] ANZUP
+- [x] PetRescue
+- [x] Medicins Sans Frontieres
 
 ##Traffic driving
-
+- [ ] Start a forum/mailing list
 - [ ] Create facebook group
 - [ ] Submit to StumbleUpon
 - [ ] Submit to Reddit(?)
