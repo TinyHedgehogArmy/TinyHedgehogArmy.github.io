@@ -14,7 +14,7 @@
 - [ ] Proofread, simplify language and headings
 - [ ] Fix text size on large monitors
 - [ ] Tooltips on display page
-
+- [ ] Improve google analytics!
 
 ## Pretty URLS
 - http://code.tutsplus.com/tutorials/an-in-depth-guide-to-mod_rewrite-for-apache--net-6708
