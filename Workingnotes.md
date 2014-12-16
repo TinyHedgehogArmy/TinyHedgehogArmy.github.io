@@ -27,13 +27,15 @@
 - [x] ANZUP
 - [x] PetRescue
 - [x] Medicins Sans Frontieres
+- [ ] Fix Wesley Mission
+- [ ] Add girl guides
 
 ##Traffic driving
 - [ ] Start a forum/mailing list
 - [ ] Create facebook group
 - [ ] Submit to StumbleUpon
 - [ ] Submit to Reddit(?)
-- [ ] Answer questions on Quora
+- [x] Answer questions on Quora
 - [ ] Consider writing posts for the Conversation (later)
 - [ ] Consider writing posts for other blogs on the topic (later)
 
