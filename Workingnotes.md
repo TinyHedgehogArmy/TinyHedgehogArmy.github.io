@@ -29,6 +29,7 @@
 - [x] Medicins Sans Frontieres
 - [ ] Fix Wesley Mission
 - [ ] Add girl guides
+- [ ] Check top list here: https://www.ozbargain.com.au/node/173976
 
 ##Traffic driving
 - [ ] Start a forum/mailing list
